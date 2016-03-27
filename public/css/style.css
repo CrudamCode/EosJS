@@ -37,7 +37,14 @@ footer
   height: 100px;
   width: 100%;
   float: left;
-}
+}  background-color: rgba(100, 100, 100, 0.5);
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 10%;;
+  transform: translateX(-50%);
+  text-align: center;
 
 footer a{
   display: inline;
@@ -98,5 +105,22 @@ footer a img{
   width: 100%;
   margin-top: 110px;
   font-size: 30px;
+
+}
+
+#index{
+
+  height: 400px;
+  width: 400px;
+
+  margin-left: 50%;
+  margin-top: 10%;;
+  transform: translateX(-50%);
+
+}
+
+#index h1{
+
+  text-align: center;
 
 }
